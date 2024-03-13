@@ -4,8 +4,8 @@
 ```bash
 poetry install --with dev,test
 poetry update --with dev
-poetry add packagename --group dev
-poetry remove packagename --group test
+poetry add <packagename> --group dev
+poetry remove <packagename> --group test
 ```
 
 ## Форматирование кода
