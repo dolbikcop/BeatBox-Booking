@@ -11,4 +11,10 @@ poetry remove <packagename> --group test
 ## Форматирование кода
 ```bash
 black ./app
+black --check . --diff
+```
+
+## Запуск тестов
+```bash
+pytest -v
 ```
