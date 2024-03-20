@@ -1,20 +1,5 @@
-### Python version 3.12.2
+# BeatBox Booking
 
-## Установка и обновление зависимостей
-```bash
-poetry install --with dev,test
-poetry update --with dev
-poetry add <packagename> --group dev
-poetry remove <packagename> --group test
-```
-
-## Форматирование кода
-```bash
-black ./app
-black --check . --diff
-```
-
-## Запуск тестов
-```bash
-pytest -v
-```
+BeatBox Booking - сервис бронирования комнат в музыкальных студиях. Предназначен для улучшения процесса
+бронирования путем понятного представления информации о студиях, решения проблемы оформления брони напрямую у владельца
+помещений.
