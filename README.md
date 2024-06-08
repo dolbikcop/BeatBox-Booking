@@ -26,7 +26,9 @@ Backend: http://localhost/api/docs
 Получение изменений в подмодулях и соответствующее обновление файлов в
 репозитории
 
+Если вы работаете с этими подмодулями впервые, то к команде необходимо
+добавить флаг --init
+
 ```bash
 git submodule update --remote
-git pull --recurse-submodules
 ```
